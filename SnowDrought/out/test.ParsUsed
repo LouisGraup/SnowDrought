@@ -1,0 +1,243 @@
+
+
+Feb 25 21:46 2019 ../out/test_lu_undev_landuse.params Page 1
+
+
+1 landuse_default_ID
+0.0 septic_water_load
+0.0 detention_store_size
+0.000000 irrigation
+0.000000 fertilizer_NO3
+0.000000 fertilizer_NH4
+0.000000 septic_NO3_load
+7.000000 PH
+0.000000 landuse.percent_impervious
+0.000000 grazing_Closs
+
+
+Feb 25 21:46 2019 ../out/test_soil_upslope_soil.params Page 1
+
+
+200 patch_default_ID
+1 theta_psi_curve
+3.000000 Ksat_0
+0.120000 m
+0.435000 porosity_0
+4000.000000 porosity_decay
+-1.7 P3
+0.20000 pore_size_index
+0.218000 psi_air_entry
+0.010000 psi_max
+5.0000 soil_depth
+0.400000 m_z
+0.000000 detention_store_size
+1.000000 deltaZ
+10.000000 active_zone_z
+-10.000000 maximum_snow_energy_deficit
+0.000000 snow_water_capacity
+10000.000000 snow_light_ext_coef
+0.016 snow_melt_Tcoef
+0.000000 max_heat_capacity
+0.000000 min_heat_capacity
+0.120000 N_decay
+0.700000 sand
+0.100000 clay
+0.200000 silt
+0.001 gsurf_intercept
+-1.5 p4
+age snow_albedo_flag
+2.000000 bats_b
+0.300000 bats_r3
+0.280000 albedo
+0.000000 NO3_adsorption_rate
+1.000000 fs_spill
+1.000000 fs_percolation
+0.200000 fs_threshold
+0.000000 theta_mean_std_p1
+0.000000 theta_mean_std_p2
+0.006200 gl_c
+0.010000 gsurf_slope 
+0.050000 DOM_decay_rate
+0.000005 NH4_adsorption_rate
+0.030000 DON_production_rate
+0.000023 DOC_adsorption_rate
+0.000001 DON_adsorption_rate
+0.001000 interval_size
+
+
+Feb 25 21:46 2019 ../out/test_stdhill_hillslope.params Page 1
+
+
+1 hillslope_default_ID
+1.0 n_routing_timesteps
+1.000000 gw_loss_coeff
+-1.000000 gw_loss_fast_threshold
+3.000000 gw_loss_fast_coeff
+
+
+Feb 25 21:46 2019 ../out/test_veg_pine_stratum.params Page 1
+
+
+4.000000 stratum_default_ID
+TREE epc.veg.type
+0.800000 K_absorptance
+0.100000 K_reflectance
+0.100000 K_transmittance
+1.000000 PAR_absorptance
+0.000000 PAR_reflectance
+0.000000 PAR_transmittance
+0.500000 epc.ext_coef
+0.000500 specific_rain_capacity
+0.000500 specific_snow_capacity
+0.002000 wind_attenuation_coef
+-999.900000 ustar_overu
+2.000000 mrc.q10
+0.200000 mrc.per_N
+0.250000 epc.gr_perc
+1.000000 lai_stomatal_fraction
+0.100000 epc.flnr
+0.030000 epc.ppfd_coef
+15.000000 epc.topt
+40.000000 epc.tmax
+0.200000 epc.tcoef
+-0.500000 epc.psi_open
+-2.000000 epc.psi_close
+0.000000 epc.vpd_open
+3100.000000 epc.vpd_close
+0.006000 epc.gl_smax
+0.006000 epc.gl_c
+0.000000 gsurf_slope
+1000000.000000 gsurf_intercept
+static epc.phenology_flag
+EVERGREEN epc.phenology.type
+12.000000 epc.max_lai
+7.440000 epc.proj_sla
+2.420000 epc.lai_ratio
+1.400000 epc.proj_swa
+0.270000 epc.leaf_turnover
+90.000000 epc.day_leafon
+260.000000 epc.day_leafoff
+30.000000 epc.ndays_expand
+30.000000 epc.ndays_litfall
+47.000000 epc.leaf_cn
+102.000000 epc.leaflitr_cn
+0.000000 min_heat_capacity
+0.000000 max_heat_capacity
+dynamic epc.allocation_flag
+1.000000 epc.storage_transfer_prop
+0.270000 epc.froot_turnover
+0.100000 epc.livewood_turnover
+0.010000 epc.kfrag_base
+0.002000 epc.max_daily_mortality
+0.002000 epc.min_daily_mortality
+0.000000 epc.daily_mortality_threshold
+100.000000 epc.froot_cn
+250.000000 epc.livewood_cn
+0.250000 epc.leaflitr_flab
+
+
+Feb 25 21:46 2019 ../out/test_veg_pine_stratum.params Page 2
+
+
+0.480000 epc.leaflitr_fcel
+0.270000 epc.leaflitr_flig
+0.252000 epc.frootlitr_flab
+0.495000 epc.frootlitr_fcel
+0.253000 epc.frootlitr_flig
+0.500000 epc.deadwood_fcel
+0.500000 epc.deadwood_flig
+0.550000 epc.alloc_frootc_leafc
+0.300000 epc.alloc_crootc_stemc
+0.400000 epc.alloc_stemc_leafc
+0.600000 epc.alloc_livewoodc_woodc
+0.050000 epc.maxlgf
+0.500000 epc.alloc_prop_day_growth
+0.000000 epc.daily_fire_turnover
+0.570000 epc.height_to_stem_exp
+11.390000 epc.height_to_stem_coef
+0 epc.dyn_alloc_prop_day_growth
+0.000500 epc.min_leaf_carbon
+100 epc.max_years_resprout
+0.001000 epc.resprout_leaf_carbon
+0.000000 epc.litter_gsurf_slope
+100000000.000000 epc.litter_gsurf_intercept
+1.000000 epc.coef_CO2
+0.800000 epc.root_growth_direction
+8.000000 epc.root_distrib_parm
+0.600000 epc.crown_ratio
+-2.000000 epc.gs_tmin
+5.000000 epc.gs_tmax
+900.000000 epc.gs_vpd_min
+4100.000000 epc.gs_vpd_max
+36000.000000 epc.gs_dayl_min
+39600.000000 epc.gs_dayl_max
+-15.000000 epc.gs_psi_min
+-14.000000 epc.gs_psi_max
+6.000000 epc.gs_ravg_days
+0.500000 epc.gsi_thresh
+1.000000 epc.gs_npp_on
+187.000000 epc.gs_npp_slp
+197.000000 epc.gs_npp_intercpt
+0.200000 epc.max_storage_percent
+0.270000 epc.min_percent_leafg
+0.250000 epc.dickenson_pa
+0.800000 epc.waring_pa
+2.500000 epc.waring_pb
+0.000000 epc.branch_turnover
+0 epc.Tacclim
+3.220000 epc.Tacclim_intercpt
+0.046000 epc.Tacclim_slp
+30 epc.Tacclim_days
+0.002000 epc.litter_moist_coef
+50.000000 epc.litter_density
+0 epc.nfix
+1 epc.edible
+0 epc.psi_curve
+-1.000000 epc.psi_threshold
+0.200000 epc.psi_slp
+
+
+Feb 25 21:46 2019 ../out/test_veg_pine_stratum.params Page 3
+
+
+1.000000 epc.psi_intercpt
+
+
+Feb 25 21:46 2019 ../out/test_zone_zone.params Page 1
+
+
+1 zone_default_ID
+0.000029 atm_trans_lapse_rate
+0.0015 dewpoint_lapse_rate
+10 max_effective_lai
+0.003 lapse_rate
+0.0254 pptmin
+0.75 sea_level_clear_sky_trans
+0.4 temcf
+0.003 trans_coeff1
+2.2 trans_coeff2
+1.0 wind
+2.0 max_snow_temp
+-2.0 min_rain_temp
+0.011 n_deposition
+0.002 lapse_rate_precip_default
+0.00 lapse_rate_tmin
+0.0062 lapse_rate_tmax
+-999.000000 trans_coeff1_sum
+-999.000000 trans_coeff2_sum
+5.000000 trans_startmonth_sum
+-999.000000 trans_coeff1_win
+-999.000000 trans_coeff2_win
+11.000000 trans_startmonth_win
+180.000000 wind_direction
+0.004900 wet_lapse_rate
+0.000000 psen.pthresh
+1.000000 psen.ptypelow
+0.000000 psen.p1low
+0.000000 psen.p2low
+1.000000 psen.ptypehigh
+0.000000 psen.p1high
+0.000000 psen.p2high
+6.000000 ravg_days
+322.000000 atm_CO2 
+

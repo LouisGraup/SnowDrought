@@ -1,0 +1,8 @@
+rhessys6.0 -t ../tecfiles/tec.run -w ../worldfiles/sagehen.world.veg.su -whdr ../worldfiles/sagehen.veg.su.hdr  -r ../flowtables/sagehen.flow  -st 1982 5 19 1 -ed 2082 10 1 1 -pre ../out/tmp -s 0.036294 359.4858 -sv 0.036294 359.4858 -svalt 1.518305 1.785178 -gw 0.346205 0.416299 -vegspinup ../worldfiles/spinup_veg_lai02.txt -g -b -climrepeat
+
+rm ../out/*hourly
+rm ../out/*monthly
+rm ../out/*yearly
+pr -F ../out/tmp*params > ../out/tmp.ParsUsed
+rm ../out/tmp*params
+

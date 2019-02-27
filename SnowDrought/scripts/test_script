@@ -1,0 +1,1 @@
+/PATH/rhessys6.0 -t ../tecfiles/tec.cal -w ../worldfiles/sagehen.world.cal -r ../flowtables/sagehen.flow -pre ../out/test   -s 2.895000 525.475000 -sv 2.895000 525.475000 -svalt 0.762500 0.912500 -st 2001 10 1 1 -ed 2009 10 1 1 -whdr ../worldfiles/sagehen.hdr -tchange 0 0 -climrepeat -b -g

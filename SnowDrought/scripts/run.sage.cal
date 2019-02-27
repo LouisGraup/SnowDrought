@@ -1,0 +1,8 @@
+rhessys6.0 -t ../tecfiles/tec.cal -w ../worldfiles/sagehen.world.cal -whdr ../worldfiles/sagehen.hdr  -r ../flowtables/sagehen.flow  -st 2002 10 1 1 -ed 2009 10 1 1 -pre ../out/tmp -s 0.036294 359.4858 -sv 0.036294 359.4858 -svalt 1.518305 1.785178 -gw 0.346205 0.416299 -g -b -climrepeat
+
+rm ../out/*hourly
+rm ../out/*monthly
+rm ../out/*yearly
+pr -F ../out/tmp*params > ../out/tmp.ParsUsed
+rm ../out/tmp*params
+

@@ -1,0 +1,10 @@
+#/volumes/2TB_Drive/work.capoeira/rhessys/Version/RHESSys-master/rhessys/rhessys6.0 -t ../tecfiles/tec.test -w ../worldfiles/sagepatch.world -whdr ../worldfiles/sagepatch.hdr  -r ../flowtables/sagepatch.flow  -st 1982 10 1 1 -ed 2000 10 1 1 -pre ../out/tmp -s 0.036294 359.4858 -sv 0.036294 359.4858 -svalt 1.518305 1.785178 -gw 0.346205 0.416299 -g -b -climrepeat -c -p -z
+
+/Volumes/2TB_Drive/Work.capoeira/RHESSys/test/RHESSys-develop/rhessys/rhessys6.0 -t ../tecfiles/tec.test -w ../worldfiles/world.test -whdr ../worldfiles/sagepatch.hdr   -st 1982 10 1 1 -ed 2000 10 1 1 -pre ../out/tmp -s 0.036294 359.4858 -sv 0.036294 359.4858 -svalt 1.518305 1.785178 -gw 0.346205 0.416299 -g -b -climrepeat -c -p -z
+
+rm ../out/*hourly
+rm ../out/*monthly
+rm ../out/*yearly
+pr -F ../out/tmp*params > ../out/tmp.ParsUsed
+rm ../out/tmp*params
+

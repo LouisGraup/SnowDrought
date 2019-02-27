@@ -1,0 +1,21 @@
+1          zone_default_ID          /*RHESSys V5 standard zone default file */
+0.000029   atm_trans_lapse_rate     /* Values provided by Tague */
+0.0015     dewpoint_lapse_rate
+10         max_effective_lai
+0.003    lapse_rate
+0.0254     pptmin
+0.75       sea_level_clear_sky_trans
+0.4        temcf
+0.003      trans_coeff1
+2.2        trans_coeff2
+1.0          wind
+2.0         max_snow_temp
+-2.0         min_rain_temp
+0.011      n_deposition
+0.002 	lapse_rate_precip_default
+0.00	lapse_rate_tmin
+0.0062	lapse_rate_tmax
+
+
+
+

@@ -1,0 +1,18 @@
+101 base_station_ID
+100.0 x_coordinate
+100.0 y_coordinate
+2128 z_coordinate
+3.5  effective_lai
+160.0 screen_height
+hja_prime_annual	annual_climate_prefix
+0			number_non_critical_annual_sequences
+hja_prime_monthly 	monthly_climate_prefix
+0			number_non_critical_monthly_sequences
+../clim/sagehen 	daily_climate_prefix
+4 			number_non_critical_daily_sequences
+lapse_rate_tmin
+lapse_rate_tmax
+daytime_rain_duration
+tavg
+hja_prime_hourly 	hourly_climate_prefix
+0			number_non_critical_hourly_sequences

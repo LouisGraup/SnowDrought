@@ -1,0 +1,9 @@
+#/volumes/2TB_Drive/work.capoeira/rhessys/bin/rhessys5.19 -t ../tecfiles/tec.su -w ../worldfiles/sagepatch.world.su -whdr ../worldfiles/sagepatch.hdr  -r ../flowtables/sagepatch.flow  -st 1982 10 1 1 -ed 2017 9 30 1 -pre ../out/tmp -s 0.036294 359.4858 -sv 0.036294 359.4858 -svalt 1.518305 1.785178 -gw 0.346205 0.416299 -g -b 
+/volumes/2TB_Drive/work.capoeira/rhessys/Version/RHESSys-master/rhessys/rhessys6.0 -t ../tecfiles/tec.su -w ../worldfiles/sagepatch.world -whdr ../worldfiles/sagepatch.hdr  -r ../flowtables/sagepatch.flow  -st 1982 10 1 1 -ed 2010 10 1 1 -pre ../out/tmp -s 0.036294 359.4858 -sv 0.036294 359.4858 -svalt 1.518305 1.785178 -gw 0.346205 0.416299 -g -b -climrepeat
+
+rm ../out/*hourly
+rm ../out/*monthly
+rm ../out/*yearly
+pr -F ../out/tmp*params > ../out/tmp.ParsUsed
+rm ../out/tmp*params
+

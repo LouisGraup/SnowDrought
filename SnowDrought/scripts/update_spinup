@@ -1,0 +1,4 @@
+cd ../worldfiles
+cp sagepatch.world.su.Y2017M9D29H1.state sagepatch.world.su
+rm sagepatch.world.su.Y*
+cd ../scripts
